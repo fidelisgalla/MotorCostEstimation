@@ -10,7 +10,7 @@ from wtforms import Form, FloatField, validators
 from compute import CalculationMotorPrice
 
 ########################################################################################
-# our main blueprint
+# our main blueprint j
 main = Blueprint('main', __name__)
 
 @main.route('/') # home page that return 'index'
